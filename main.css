@@ -1,22 +1,16 @@
-.item-blue {
-  background-color: #0997d3; }
+.item-1 {
+  width: 61px; }
 
-.item-red {
-  background-color: #e84610; }
+.item-2 {
+  width: 62px; }
 
-.item-green {
-  background-color: #bada55; }
+.item-3 {
+  width: 63px; }
 
-body {
-  background-color: #000000; }
-
-div {
-  border: 1px solid #000000; }
+.item-4 {
+  width: 64px; }
 
 h1 {
-  color: #ffffff; }
-
-div.container {
-  background-color: orange; }
+  color: red; }
 
 /*# sourceMappingURL=main.css.map */
