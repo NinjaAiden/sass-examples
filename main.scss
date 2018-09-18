@@ -6,6 +6,24 @@ $class-name: item;
     }
 }
 
+@mixin button ($color, $size) {
+    width: $size;
+    height: $size / 2;
+    color: $color;
+    border: 1px solid $color;
+
+    @if $color==#e84610 {
+        color: #ffffff;
+    }
+    @else {
+        color: $color;
+    }
+}
+
+.btn {
+    @include button(#e84610, 200px)
+}
+
 $random: 5;
 
 h1 {
