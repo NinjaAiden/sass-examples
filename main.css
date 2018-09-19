@@ -3,6 +3,10 @@
   padding: 0;
   margin: 0; }
 
+.container, .wrapper, .item {
+  border: 1px solid #000;
+  border-radius: 10px; }
+
 @media (min-width: 768px) and (max-width: 991px) {
   .btn {
     font-size: 10px; } }
@@ -45,5 +49,36 @@
 .home-section {
   position: relative;
   z-index: 2; }
+
+.box {
+  width: 200px;
+  height: 100px;
+  background-color: #bada55; }
+
+.container-1 {
+  background-color: #aaa; }
+
+.container-2 {
+  background-color: #bbb; }
+
+.container-3 {
+  background-color: #ccc; }
+
+.container-4 {
+  background-color: #ddd; }
+
+.container {
+  width: 1280px;
+  background-color: #fff;
+  margin: 0 auto; }
+
+.wrapper {
+  float: left;
+  position: relative; }
+
+.item {
+  font-size: 14px;
+  font-family: "Sans Pro", sans-serif;
+  font-weight: 700; }
 
 /*# sourceMappingURL=main.css.map */

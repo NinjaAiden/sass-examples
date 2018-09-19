@@ -9,3 +9,34 @@
 
 @import "pages/about";
 @import "pages/home";
+
+.box{
+    @include box(200px, #bada55)
+}
+
+@each $color in $colors {
+    $i: index($colors, $color);
+    .container-#{$i} {
+        background-color: $color;
+    }
+}
+
+.container {
+    width: 1280px;
+    background-color: #fff;
+    margin: 0 auto;
+    @extend %border;
+}
+
+.wrapper {
+    float: left;
+    position: relative;
+    @extend %border;
+}
+
+.item {
+    font-size: 14px;
+    font-family: "Sans Pro", sans-serif;
+    font-weight: 700;
+    @extend %border;
+}
